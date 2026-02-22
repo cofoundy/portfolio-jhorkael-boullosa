@@ -2,20 +2,20 @@ export const siteConfig = {
   name: "Jhorkael Boullosa",
   title: "Economista | Líder Regional | Asesor Financiero",
   description:
-    "Bachiller en Economía con más de 4 años de experiencia en el sector financiero y liderazgo juvenil en la región Loreto. Asesor al Cliente Plataforma en BCP.",
+    "Bachiller en Economía con más de 4 años de experiencia en el sector financiero y liderazgo juvenil en la región Loreto. 2° puesto Talento COFIDE 2025. Presidente del Parlamento Joven Loreto.",
 
   // 2-color system: deep navy (professional/finance) + warm amber (leadership energy)
   accentColor: "#1e3a5f",
   highlightColor: "#f59e0b",
 
   stats: [
-    { value: "4+", label: "Años de experiencia" },
+    { value: "2°", label: "Talento COFIDE 2025" },
     { value: "250%", label: "Cumplimiento de metas" },
-    { value: "UNAP", label: "Bachiller en Economía" },
+    { value: "10+", label: "Reconocimientos nacionales" },
   ],
 
   tagline:
-    "Economista y líder juvenil amazónico transformando su región desde las finanzas y el servicio social.",
+    "Economista y líder juvenil amazónico transformando su región desde las finanzas y el impacto social.",
 
   social: {
     email: "jhorbo16@gmail.com",
@@ -24,7 +24,7 @@ export const siteConfig = {
   },
 
   aboutMe:
-    "Bachiller en Economía por la Universidad Nacional de la Amazonía Peruana, con más de 4 años de experiencia en el sector comercial y financiero. Actualmente me desempeño como Asesor al Cliente Plataforma en el Banco de Crédito del Perú (BCP), donde brindo atención personalizada y diseño soluciones financieras a medida. Mi trayectoria incluye reconocimientos como Promotor Plata y Promotor Oro a nivel nacional en Banco Falabella. Paralelamente, soy Presidente del Voluntariado Universitario UNAP, Embajador Líder de CADE Escolar (IPAE), y representé a la región Loreto en el diálogo juvenil en Palacio de Gobierno, donde abordé la anemia infantil en la Amazonía — parte de mi discurso lo hice en lengua de señas peruana. Creo firmemente que el liderazgo se demuestra con acción, y mi misión es impulsar el desarrollo de mi región desde las finanzas y el impacto social.",
+    "Bachiller en Economía por la Universidad Nacional de la Amazonía Peruana, con más de 4 años de experiencia en el sector comercial y financiero. Actualmente me desempeño como Asesor al Cliente Plataforma en el BCP. En Banco Falabella fui reconocido como Promotor Plata y Promotor Oro a nivel nacional por superar el 250% de mis metas comerciales. Paralelamente, conquisté el 2° puesto en el concurso Talento COFIDE 2025 entre 100 participantes, soy Presidente del Voluntariado Universitario UNAP, Presidente del Plenario Regional Loreto del Parlamento Joven 2025, y representé a mi región en el diálogo juvenil en Palacio de Gobierno con el Presidente del Perú — donde abordé la anemia infantil amazónica con parte de mi intervención en lengua de señas peruana. Mi misión: impulsar el desarrollo de Loreto desde las finanzas, el liderazgo y el impacto social.",
 
   skills: [
     "Asesoría Financiera",
@@ -32,41 +32,55 @@ export const siteConfig = {
     "Evaluación Crediticia",
     "Liderazgo de Equipos",
     "Gestión de Carteras",
-    "Oratoria",
-    "Community Management",
+    "Oratoria y Debate",
+    "Proyectos de Inversión Pública",
+    "Economía Circular",
     "Lengua de Señas Peruana",
-    "Organización de Eventos",
-    "Voluntariado Social",
+    "Gestión de Voluntariado",
   ],
 
   projects: [
     {
-      name: "Voluntariado Universitario UNAP",
+      name: "Talento COFIDE 2025 — 2° Puesto Nacional",
       description:
-        "Presidente del voluntariado con 4 pilares: Social, Salud, Medio Ambiente e Innovación. Organizador de ferias laborales, jornadas de salud integral (+90 atendidos), viernes de reciclaje y maratones del empleo (+50 participantes).",
-      link: "",
-      skills: ["Liderazgo", "Impacto Social", "Gestión"],
+        "Segundo lugar entre 100 competidores en el prestigioso concurso Talento COFIDE 2025 - Desarrollando Líderes, organizado por COFIDE y USIL en Lima.",
+      image: "/cofide.jpg",
+      skills: ["Finanzas", "Liderazgo", "Competencia Nacional"],
     },
     {
       name: "GenerAcción CADE — Palacio de Gobierno",
       description:
-        "Representé a la UNAP y a la región Loreto en el diálogo juvenil con el Presidente del Perú (enero 2026). Presenté el Manifiesto de Jóvenes Líderes de IPAE y abordé la anemia infantil en la Amazonía, incluyendo una intervención en lengua de señas.",
-      link: "",
+        "Representé a Loreto en el diálogo juvenil con el Presidente del Perú (enero 2026). Presenté el Manifiesto de Jóvenes Líderes de IPAE y abordé la anemia infantil amazónica en lengua de señas.",
+      image: "/palacio.jpg",
       skills: ["Incidencia Política", "Oratoria", "Inclusión"],
     },
     {
-      name: "CADE Universitario — Democracia Somos Todos",
+      name: "Parlamento Joven 2025 — Presidente Regional Loreto",
       description:
-        "Becario seleccionado entre jóvenes líderes nacionales para el CADE Universitario 2024 en la Escuela Naval del Perú. Foro de liderazgo más importante del país con más de 750 participantes.",
-      link: "",
-      skills: ["Democracia", "Liderazgo Juvenil", "Networking"],
+        "Elegido Presidente del Plenario Regional Loreto. Lideré la sesión donde se debatieron y aprobaron propuestas clave para un Perú más justo e inclusivo desde la Amazonía.",
+      image: "/parlamento.jpg",
+      skills: ["Democracia", "Debate", "Política Pública"],
     },
     {
-      name: "Cabildos Bicentenario Loreto",
+      name: "Hult Prize 2025 — Organizador UNAP",
       description:
-        "Orador invitado en los Cabildos Bicentenario organizados por el Ministerio de Cultura en Loreto (2022). Representando la voz de la juventud amazónica en el proceso del bicentenario nacional.",
-      link: "",
-      skills: ["Participación Ciudadana", "Amazonía", "Juventud"],
+        "Organizador de la competencia de emprendimiento social más grande del mundo en la UNAP. Tres equipos finalistas presentaron soluciones innovadoras ante jurado de expertos.",
+      image: "/hult-prize.jpg",
+      skills: ["Emprendimiento", "Innovación Social", "Organización"],
+    },
+    {
+      name: "CADE Escolar 2025 — 1er Lugar Reto Digital",
+      description:
+        "Embajador Líder del CADE Escolar IPAE. 1er lugar en Reto de Redes Sociales con +1,000 interacciones y +15% de crecimiento en alcance digital.",
+      image: "/cade-escolar.jpg",
+      skills: ["Marketing Digital", "Liderazgo", "Comunicación"],
+    },
+    {
+      name: "Ponente: Juventud Circular — UNMSM",
+      description:
+        "Ponente invitado en la conferencia 'Juventud Circular: Liderazgo, Finanzas e Innovación para Transformar el Futuro', organizada por CERSEU-FCA de la UNMSM.",
+      image: "/conferencia.jpg",
+      skills: ["Economía Circular", "Ponencia", "Innovación"],
     },
   ],
 
