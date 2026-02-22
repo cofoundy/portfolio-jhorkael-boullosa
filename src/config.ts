@@ -1,21 +1,21 @@
 export const siteConfig = {
   name: "Jhorkael Boullosa",
-  title: "Economista | Líder Regional | Asesor Financiero",
+  title: "Líder Juvenil | Conferencista | Economista",
   description:
-    "Bachiller en Economía con más de 4 años de experiencia en el sector financiero y liderazgo juvenil en la región Loreto. 2° puesto Talento COFIDE 2025. Presidente del Parlamento Joven Loreto.",
+    "Líder juvenil amazónico, conferencista y economista. 2° puesto Talento COFIDE 2025. Presidente del Parlamento Joven Loreto. Representante juvenil en Palacio de Gobierno.",
 
-  // 2-color system: deep navy (professional/finance) + warm amber (leadership energy)
+  // 2-color system: deep navy (professional/trust) + warm amber (leadership energy)
   accentColor: "#1e3a5f",
   highlightColor: "#f59e0b",
 
   stats: [
     { value: "2°", label: "Talento COFIDE 2025" },
-    { value: "250%", label: "Cumplimiento de metas" },
-    { value: "10+", label: "Reconocimientos nacionales" },
+    { value: "10+", label: "Conferencias y talleres" },
+    { value: "5", label: "Cargos de liderazgo" },
   ],
 
   tagline:
-    "Economista y líder juvenil amazónico transformando su región desde las finanzas y el impacto social.",
+    "Líder juvenil amazónico transformando su región a través de conferencias, política pública e impacto social.",
 
   social: {
     email: "jhorbo16@gmail.com",
@@ -24,29 +24,22 @@ export const siteConfig = {
   },
 
   aboutMe:
-    "Bachiller en Economía por la Universidad Nacional de la Amazonía Peruana, con más de 4 años de experiencia en el sector comercial y financiero. Actualmente me desempeño como Asesor al Cliente Plataforma en el BCP. En Banco Falabella fui reconocido como Promotor Plata y Promotor Oro a nivel nacional por superar el 250% de mis metas comerciales. Paralelamente, conquisté el 2° puesto en el concurso Talento COFIDE 2025 entre 100 participantes, soy Presidente del Voluntariado Universitario UNAP, Presidente del Plenario Regional Loreto del Parlamento Joven 2025, y representé a mi región en el diálogo juvenil en Palacio de Gobierno con el Presidente del Perú — donde abordé la anemia infantil amazónica con parte de mi intervención en lengua de señas peruana. Mi misión: impulsar el desarrollo de Loreto desde las finanzas, el liderazgo y el impacto social.",
+    "Líder juvenil amazónico y economista comprometido con el desarrollo de Loreto. Presidente del Plenario Regional Loreto del Parlamento Joven 2025 y Presidente del Voluntariado Universitario UNAP. Representé a mi región en el diálogo juvenil en Palacio de Gobierno con el Presidente del Perú, donde abordé la anemia infantil amazónica — con parte de mi intervención en lengua de señas peruana. Conquisté el 2° puesto entre 100 competidores en Talento COFIDE 2025, soy Embajador Líder de CADE Escolar (IPAE) y ponente invitado en conferencias nacionales sobre liderazgo, economía circular e innovación social. Mi formación en la Academia de Líderes UNI-ONU y mi trayectoria en el sector financiero (BCP, Banco Falabella) complementan mi vocación de servicio público. Mi misión: impulsar el desarrollo de la Amazonía desde el liderazgo, la oratoria y la acción social.",
 
   skills: [
-    "Asesoría Financiera",
-    "Venta Consultiva",
-    "Evaluación Crediticia",
-    "Liderazgo de Equipos",
-    "Gestión de Carteras",
+    "Liderazgo Juvenil",
     "Oratoria y Debate",
-    "Proyectos de Inversión Pública",
+    "Conferencias y Ponencias",
+    "Incidencia Política",
+    "Gestión de Voluntariado",
+    "Organización de Eventos",
     "Economía Circular",
     "Lengua de Señas Peruana",
-    "Gestión de Voluntariado",
+    "Proyectos de Inversión Pública",
+    "Asesoría Financiera",
   ],
 
   projects: [
-    {
-      name: "Talento COFIDE 2025 — 2° Puesto Nacional",
-      description:
-        "Segundo lugar entre 100 competidores en el prestigioso concurso Talento COFIDE 2025 - Desarrollando Líderes, organizado por COFIDE y USIL en Lima.",
-      image: "/cofide.jpg",
-      skills: ["Finanzas", "Liderazgo", "Competencia Nacional"],
-    },
     {
       name: "GenerAcción CADE — Palacio de Gobierno",
       description:
@@ -60,6 +53,20 @@ export const siteConfig = {
         "Elegido Presidente del Plenario Regional Loreto. Lideré la sesión donde se debatieron y aprobaron propuestas clave para un Perú más justo e inclusivo desde la Amazonía.",
       image: "/parlamento.jpg",
       skills: ["Democracia", "Debate", "Política Pública"],
+    },
+    {
+      name: "Talento COFIDE 2025 — 2° Puesto Nacional",
+      description:
+        "Segundo lugar entre 100 competidores en el concurso Talento COFIDE 2025 - Desarrollando Líderes, organizado por COFIDE y USIL en Lima.",
+      image: "/cofide.jpg",
+      skills: ["Finanzas", "Liderazgo", "Competencia Nacional"],
+    },
+    {
+      name: "Ponente: Juventud Circular — UNMSM",
+      description:
+        "Ponente invitado en la conferencia 'Juventud Circular: Liderazgo, Finanzas e Innovación para Transformar el Futuro', organizada por CERSEU-FCA de la UNMSM.",
+      image: "/conferencia.jpg",
+      skills: ["Economía Circular", "Ponencia", "Innovación"],
     },
     {
       name: "Hult Prize 2025 — Organizador UNAP",
@@ -76,22 +83,91 @@ export const siteConfig = {
       skills: ["Marketing Digital", "Liderazgo", "Comunicación"],
     },
     {
-      name: "Ponente: Juventud Circular — UNMSM",
+      name: "CADE Universitario — Democracia Somos Todos",
       description:
-        "Ponente invitado en la conferencia 'Juventud Circular: Liderazgo, Finanzas e Innovación para Transformar el Futuro', organizada por CERSEU-FCA de la UNMSM.",
-      image: "/conferencia.jpg",
-      skills: ["Economía Circular", "Ponencia", "Innovación"],
+        "Becario seleccionado entre jóvenes líderes nacionales para el CADE Universitario 2024 en la Escuela Naval del Perú. Foro de liderazgo más importante del país con +750 participantes.",
+      image: "/cade-universitario.jpg",
+      skills: ["Democracia", "Liderazgo Juvenil", "Networking"],
+    },
+    {
+      name: "Encuentro Nacional SENAJU",
+      description:
+        "Participante en el Encuentro Nacional de la Secretaría Nacional de la Juventud (SENAJU), representando a la región Loreto en mesas de trabajo sobre políticas públicas para la juventud.",
+      image: "/senaju.jpg",
+      skills: ["Política Pública", "Juventud", "Representación Regional"],
+    },
+    {
+      name: "Escuela de Líderes UNI — ONU",
+      description:
+        "Egresado de la Academia de Líderes organizada por la Universidad Nacional de Ingeniería y la ONU, con formación en liderazgo transformacional y desarrollo sostenible.",
+      image: "/escuela-lideres-onu.jpg",
+      skills: ["Liderazgo Global", "ONU", "Desarrollo Sostenible"],
+    },
+    {
+      name: "COREECO 2025 — Consejo Regional de Economistas",
+      description:
+        "Participación activa en el Consejo Regional de Economistas de Loreto, contribuyendo al debate económico regional y promoviendo propuestas para el desarrollo amazónico.",
+      image: "/coreeco.jpg",
+      skills: ["Economía Regional", "Debate", "Desarrollo"],
+    },
+    {
+      name: "Colectivo UNAP — Liderazgo Universitario",
+      description:
+        "Miembro activo del colectivo universitario en la UNAP, impulsando iniciativas de participación estudiantil, voluntariado social y representación ante autoridades académicas.",
+      image: "/colectivo-unap.jpg",
+      skills: ["Liderazgo Universitario", "Voluntariado", "Gestión"],
+    },
+    {
+      name: "Especialización en Proyectos de Inversión",
+      description:
+        "Formación especializada en formulación y evaluación de proyectos de inversión pública, fortaleciendo capacidades para la gestión del desarrollo regional.",
+      image: "/especializacion-pi.jpg",
+      skills: ["Inversión Pública", "Gestión", "Desarrollo Regional"],
+    },
+    {
+      name: "Taller de Lengua de Señas Peruana",
+      description:
+        "Formación en lengua de señas peruana como herramienta de inclusión social. Competencia demostrada en su intervención ante el Presidente de la República en Palacio de Gobierno.",
+      image: "/taller-lsp.jpg",
+      skills: ["Inclusión", "Lengua de Señas", "Accesibilidad"],
     },
   ],
 
   experience: [
     {
+      company: "Parlamento Joven del Perú",
+      title: "Presidente del Plenario Regional Loreto",
+      dateRange: "2025",
+      bullets: [
+        "Elegido Presidente de la sesión regional más importante de participación política juvenil",
+        "Lideré debates y aprobación de propuestas legislativas juveniles para la región Loreto",
+      ],
+    },
+    {
+      company: "Voluntariado Universitario UNAP",
+      title: "Presidente",
+      dateRange: "2023 - Presente",
+      bullets: [
+        "Dirijo 4 ejes: Social, Salud, Medio Ambiente e Innovación con +50 voluntarios activos",
+        "Organicé ferias laborales, jornadas de salud integral (+90 atendidos) y maratones del empleo",
+      ],
+    },
+    {
+      company: "IPAE Acción Empresarial",
+      title: "Embajador Líder — CADE Escolar",
+      dateRange: "2025",
+      bullets: [
+        "1er lugar en Reto Digital: +1,000 interacciones y +15% de crecimiento en alcance",
+        "Coordiné equipo de jóvenes líderes para eventos de CADE Escolar y CADE Universitario",
+      ],
+    },
+    {
       company: "Banco de Crédito del Perú (BCP)",
       title: "Asesor al Cliente Plataforma",
       dateRange: "Nov 2025 - Presente",
       bullets: [
-        "Atención personalizada y análisis de perfil del cliente para productos financieros óptimos",
-        "Administración proactiva de cartera con enfoque en venta cruzada y colocación de nuevos productos",
+        "Atención personalizada y diseño de soluciones financieras para clientes",
+        "Gestión proactiva de cartera con enfoque en necesidades del cliente",
       ],
     },
     {
@@ -99,35 +175,8 @@ export const siteConfig = {
       title: "Asesor de Productos Financieros",
       dateRange: "Abr - Nov 2025",
       bullets: [
-        "+250% de cumplimiento mensual en metas comerciales — reconocido como Promotor Plata y Promotor Oro a nivel nacional",
-        "Mejor venta de seguros por 2 trimestres consecutivos, superando objetivos en +30%",
-      ],
-    },
-    {
-      company: "AZZORTI Perú",
-      title: "Supervisor de Venta Grupal",
-      dateRange: "Feb 2024 - Mar 2025",
-      bullets: [
-        "+20% de aumento en productividad del equipo mediante capacitación y motivación",
-        "115% de cumplimiento promedio de meta durante 6 meses consecutivos",
-      ],
-    },
-    {
-      company: "Zegel IPAE — Inlearning",
-      title: "Promotor de Colegios y Eventos",
-      dateRange: "Sep 2022 - Mar 2024",
-      bullets: [
-        "Captación del 30% de nuevos estudiantes inscritos a través de ferias educativas",
-        "Coordinación de +80 eventos/año con aumento del 40% en tasa de matriculación",
-      ],
-    },
-    {
-      company: "Mundo Cell — Claro Perú",
-      title: "Supervisor de Ventas",
-      dateRange: "May 2020 - Ago 2021",
-      bullets: [
-        "Lideré equipo de 10 consultores alcanzando 120% de la meta de portabilidad",
-        "80% de vendedores con coaching superaron objetivos en el primer mes",
+        "+250% de cumplimiento en metas — reconocido como Promotor Oro a nivel nacional",
+        "Mejor venta de seguros por 2 trimestres consecutivos",
       ],
     },
   ],
@@ -146,13 +195,13 @@ export const siteConfig = {
       school: "Universidad Nacional de Ingeniería — ONU",
       degree: "Academia de Líderes",
       dateRange: "2023 - 2024",
-      achievements: ["Programa de formación en liderazgo global"],
+      achievements: ["Formación en liderazgo transformacional y desarrollo sostenible"],
     },
     {
       school: "COFIDE — USIL",
-      degree: "Programa de Extensión Universitaria",
+      degree: "Programa Talento COFIDE — Desarrollando Líderes",
       dateRange: "2025",
-      achievements: ["Finanzas y desarrollo empresarial"],
+      achievements: ["2° puesto nacional entre 100 participantes"],
     },
   ],
 };
